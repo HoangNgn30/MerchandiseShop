@@ -9,6 +9,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
 import ProductsSlider from '../../components/ProductsSilder';
+import Footer from '../../components/Footer';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -135,7 +136,7 @@ const Home = () => {
                     <h2 className='text-[50px] font-semibold italic mb-4! '>allNews</h2>
                     <Swiper
                         slidesPerView={4}
-                        spaceBetween={10}
+                        spaceBetween={30}
                         navigation={true}
                         modules={[Navigation]}
                         className="blogSlider"
@@ -143,11 +144,38 @@ const Home = () => {
                         <SwiperSlide>
                             <BlogItem/>
                         </SwiperSlide>
+
+
+                        <SwiperSlide>
+                            <BlogItem/>
+                        </SwiperSlide>
+
+
+
+                        <SwiperSlide>
+                            <BlogItem/>
+                        </SwiperSlide>
+
+
+
+                        <SwiperSlide>
+                            <BlogItem/>
+                        </SwiperSlide>
+
+
+
+                        <SwiperSlide>
+                            <BlogItem/>
+                        </SwiperSlide>
                     </Swiper>
                 </div>
             </section>
 
-            <br /><br /><br /><br /><br />
+
+
+            <Footer/>
+
+            
         </>
     )
 }
