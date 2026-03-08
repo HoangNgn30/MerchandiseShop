@@ -11,7 +11,7 @@ const HomeSlider = () => {
     return (
         <div className='homeSlider pt-4 py-8 '>
             <div className='container'>
-                <Swiper spaceBetween={10} autoplay={{ delay: 2000, disableOnInteraction: false,}} navigation={true} modules={[Navigation, Autoplay]} className="sliderHome">
+                <Swiper loop={true} spaceBetween={10} autoplay={{ delay: 2500, disableOnInteraction: false,}} navigation={true} modules={[Navigation, Autoplay]} className="sliderHome">
                     <SwiperSlide>
                         <div className='item rounded-[20px] overflow-hidden '>
                             <img src="..\src\assets\Home Banner\img4.png" alt="Banner slide" className='w-full h-[400px] object-cover'/>
