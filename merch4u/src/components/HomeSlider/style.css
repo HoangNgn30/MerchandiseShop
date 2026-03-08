@@ -1,0 +1,22 @@
+
+.sliderHome .swiper-button-prev,
+.sliderHome .swiper-button-next {
+    display: flex !important;
+    align-items: center;
+    background: transparent !important;
+    border-radius: 0 !important;
+    width: 20px !important;
+    height: auto !important;
+    min-width: unset;
+    box-shadow: none !important;
+    text-decoration: none;
+    color: white !important;
+}
+
+.sliderHome .swiper-button-prev::after,
+.sliderHome .swiper-button-next::after {
+    font-size: 40px !important;
+    font-weight: 900 !important;
+}
+
+

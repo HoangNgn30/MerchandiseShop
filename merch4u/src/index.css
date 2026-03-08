@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body{
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background: #f5f0f0;
+    color: rgba(0,0,0,0.9);
+}
+
+::-webkit-scrollbar{width: 8px !important;height: 8px !important; }
+::-webkit-scrollbar-thumb{background: #ccc;}
+::-webkit-scrollbar-thumb{background: #fff;}
+
+
+.container{width: 95%; margin:auto;}
+
+@theme {
+    --color-primary: #ff5252;
+}
+.link:hover{color: #ff5252;}
+
+.MuiBadge-badge{background-color: #ff5252 !important;}
+
+nav ul button{text-transform: capitalize !important;}
+
+nav ul button:hover{background: none !important;}
+
+.sliderHome{overflow: inherit !important;}
+
+
+
+.swiper-button-prev, .swiper-button-next {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: transparent !important; 
+    border-radius: 0 !important; 
+    width: auto !important; 
+    height: auto !important; 
+    min-width: unset; 
+    box-shadow: none !important;
+    color: #4b5563 !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    transform: scale(0.5) !important; /* Dùng scale để thu nhỏ chính xác 50% */
+}
+
+.homeCatSlider .item{border: 1px solid rgba(0,0,0,0.1);}
+
+.MuiTabs-indicator { background-color: #ff5252 !important; }
+.MuiTab-textColorPrimary.Mui-selected { color: #ff5252 !important; }
+
+
+.productsSlider .swiper-wrapper{padding: 15px; margin-left: -15px; margin-right: -15px;}
+
