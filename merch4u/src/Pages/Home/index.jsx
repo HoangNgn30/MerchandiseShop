@@ -17,6 +17,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import BlogItem from '../../components/BlogItem';
+import HomeBannerV2 from '../../components/HomeSliderV2';
+import BannerBoxV2 from '../../components/bannerBoxV2';
 
 
 const Home = () => {
@@ -30,6 +32,20 @@ const Home = () => {
     return (
         <>
             <HomeSlider/>
+
+            <section className='py-6!'>
+                <div className='container flex gap-5'>
+                    <div className='part1 w-[70%]'>
+                        <HomeBannerV2/>
+                    </div>
+
+                    <div className='part2 w-[30%] flex items-center gap-5 justify-between flex-col'>
+                        <BannerBoxV2 info='left' image={'https://media.ktown4u.com/products/resize/thumbnail/2026/03/03/dltGqK.jpg'}/>
+                        <BannerBoxV2 info='right' image={'https://media.ktown4u.com/products/resize/thumbnail/2026/02/06/LtxEQQ.png'}/>
+                    </div>
+                </div>
+            </section>
+
             <br />
             <HomeCatSlider/>
 
