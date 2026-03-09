@@ -19,6 +19,7 @@ import { Navigation } from 'swiper/modules';
 import BlogItem from '../../components/BlogItem';
 import HomeBannerV2 from '../../components/HomeSliderV2';
 import BannerBoxV2 from '../../components/bannerBoxV2';
+import AdsBannerSliderV2 from '../../components/AdsBannerSlider V2'
 
 
 const Home = () => {
@@ -111,7 +112,7 @@ const Home = () => {
                     </div>
                     <br />
 
-                    <AdsBannerSlider items={4}/>
+                    <AdsBannerSliderV2 items={4}/>
 
                 </div>
             </section>
