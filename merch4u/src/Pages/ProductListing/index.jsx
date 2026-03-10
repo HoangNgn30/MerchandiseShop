@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Sidebar from '../Sidebar';
+import Sidebar from '../../components/Sidebar';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
-import ProductItem from '../ProductItem';
-import ProductItemListView from '../ProductItemListView';
+import ProductItem from '../../components/ProductItem';
+import ProductItemListView from '../../components/ProductItemListView';
 import Button from '@mui/material/Button';
 import { IoGridSharp } from "react-icons/io5";
 import { LuMenu } from "react-icons/lu";
