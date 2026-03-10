@@ -31,7 +31,7 @@ const HomeBannerV2 = () => {
         >
             <SwiperSlide>
                 <div className='item w-full rounded-md overflow-hidden relative'>
-                    <img src="https://media.ktown4u.com/products/resize/thumbnail/2026/03/06/1GbETZ.jpg" className='w-full h-[450px] object-cover' />
+                    <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/644929259_2136387587181150_5000631830126867946_n.png?stp=dst-png_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE_xWUJiA4VmPAwgJtOr99rUUP-aVmI6JJRQ_5pWYjoknBqY3a1RYvhkn1M7WvhrSkDBxAHT16ecBigrQuBJqUq&_nc_ohc=Xxn8LFC6zFQQ7kNvwGz3W4B&_nc_oc=AdniS6nnvUl-Y5dKxdXRjEPWOcx03-Pxi8EugBgQZsEqngb-5OL0mjZa0gteasp_7kY&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_ss=8&oh=03_Q7cD4wFR6MlljoAggCUN5rO9CpqyTrU1ifw6FB6fCg0eaJlJaQ&oe=69D72B25" className='w-full h-[450px] object-cover' />
 
 
                     <div className='info absolute top-0  -right-full opacity-0 w-[50%] h-full z-50 p-8! flex items-center flex-col justify-center transition-all duration-700'>
@@ -50,7 +50,7 @@ const HomeBannerV2 = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <div className='item w-full rounded-md overflow-hidden'>
-                    <img src="https://media.ktown4u.com/products/resize/thumbnail/2026/03/05/BZgNVm.jpg" className='w-full h-[450px] object-cover' />
+                    <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/645728612_1454525843003968_767012005812804470_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEdp0ZIImffcj3VBLIV-0JOnclWSzul1MGdyVZLO6XUwV9i58ivf_bcJJIGXWeC-jmCY-KIo-LnLXndg__ffvTR&_nc_ohc=e6O6--jfmxQQ7kNvwHVd5z1&_nc_oc=AdlIZvIAZg_zsW9h8HRLYZX7v7farW53eHSffy_4auXZTa_tkRyLodgTqelC_A5OCOI&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_ss=8&oh=03_Q7cD4wGgrhCX_ZKPXXvDHhjAbBsgTB3_QEmqJDAVHOVZeKF5ew&oe=69D74358" className='w-full h-[450px] object-cover' />
 
 
                     <div className='info absolute top-0  -right-full opacity-0 w-[50%] h-full z-50 p-8! flex items-center flex-col justify-center transition-all duration-700'>

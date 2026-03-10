@@ -40,7 +40,7 @@ const Home = () => {
                     </div>
 
                     <div className='part2 w-[30%] flex items-center gap-5 justify-between flex-col'>
-                        <BannerBoxV2 info='left' image={'https://media.ktown4u.com/products/resize/thumbnail/2026/03/03/dltGqK.jpg'}/>
+                        <BannerBoxV2 info='left' image={'https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/648161978_2820494124963830_1612202728413776195_n.png?stp=dst-png_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGSXdQzFFKZOB-45rklKgiiJdU46uCg7LYl1Tjq4KDstl3yYsrJlsEQqVigCqQPhMxNLt_w0IoBCWlKonPla14l&_nc_ohc=LIXYy5kYG3QQ7kNvwHkJzya&_nc_oc=AdkirMUs3fSB6d68ZEjhSGVciGXuuN1mCUJIi4aiPRLtcgOMqhnGzrajyBLnNkvVGlg&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_ss=8&oh=03_Q7cD4wHT-uD5vgvwjIhlosMOUzxcFpbLFLF5e1or_WpPRj0zOA&oe=69D743FF'}/>
                         <BannerBoxV2 info='right' image={'https://media.ktown4u.com/products/resize/thumbnail/2026/02/06/LtxEQQ.png'}/>
                     </div>
                 </div>
