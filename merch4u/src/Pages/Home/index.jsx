@@ -9,7 +9,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
 import ProductsSlider from '../../components/ProductsSilder';
-import Footer from '../../components/Footer';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -190,7 +189,7 @@ const Home = () => {
 
 
 
-            <Footer/>
+            
 
             
         </>
